@@ -6,8 +6,8 @@ body {
 .header, .footer, .hero {
     display: flex;
     background-color: #1F2937;
-    padding: 7px 150px;
-    column-gap: 20px;
+    padding: 7px 200px;
+    column-gap: 30px;
 }
 
 .logo {
@@ -20,16 +20,127 @@ body {
 
 .links {
     display: flex;
-    gap: 2.5em;
+    gap: 2em;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .title-card {
     display: flex;
     flex-direction: column;
+    width: 450px;
+    margin-right: auto;
+}
+
+.title-card button, .call-to-action {
+    margin-top: auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 25px;
+    border-radius: 7px;
+}
+
+button {
+    align-self: flex-start;
+    font-size: 18px;
+    font-weight: 550;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 25px;
+    border-radius: 7px;
+}
+
+.call-to-action button {
+    border: 2px solid white;
+}
+
+.call-to-action button {
+    align-self: center;
+    margin-left: auto;
+}
+
+.image-cards  {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 7px 200px;
 }
 
 .content {
     display: flex;
+    flex-direction: column;
+}
+
+
+.image-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-cards .info-header {
+    font-weight: 700;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 25px;
+}
+
+.cards {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-subtext {
+    text-align: center;
+    max-width: 150px;
+}
+
+.card .img-container {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 125px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 650;
+    font-size: 29px;
+}
+
+.call-to-action {
+    display: flex;
+    align-content: center;
+    margin: 100px 200px;
+    padding: 50px 100px;
+}
+
+.cta-header {
+    font-weight: 700;
+    font-size: large;
 }
 
 .title-card b {
@@ -56,4 +167,6 @@ ul {
 .footer {
     display: flex;
     margin-top: auto;
+    justify-content: center;
+    padding: 25px;
 }
